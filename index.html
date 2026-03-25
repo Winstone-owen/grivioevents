@@ -767,16 +767,16 @@
       <div class="form-row">
         <div class="form-group">
           <label>Full Name</label>
-          <input type="text" placeholder="Jane Mwangi" required/>
+          <input type="text" name"name" placeholder="Jane Mwangi" required/>
         </div>
         <div class="form-group">
           <label>Phone / Email</label>
-          <input type="text" placeholder="+254 or email" required/>
+          <input type="text" name="phone_or_email" placeholder="+254 or email" required/>
         </div>
       </div>
       <div class="form-group">
         <label>Event Type</label>
-        <select required>
+        <select name="event_type" required>
           <option value="" disabled selected>Select event type</option>
           <option>Wedding / Ceremony</option>
           <option>Corporate Event</option>
@@ -789,16 +789,16 @@
       <div class="form-row">
         <div class="form-group">
           <label>Event Date</label>
-          <input type="date"/>
+          <input type="date" name="event_date"/>
         </div>
         <div class="form-group">
           <label>Estimated Guests</label>
-          <input type="text" placeholder="e.g. 150 guests"/>
+          <input type="text" name="guests" placeholder="e.g. 150 guests"/>
         </div>
       </div>
       <div class="form-group">
         <label>Tell Us More</label>
-        <textarea placeholder="Describe your event vision, budget range, or any specific requirements..."></textarea>
+        <textarea name="message" placeholder="Describe your event vision, budget range, or any specific requirements..."></textarea>
       </div>
       <button type="submit" class="form-submit">Send Enquiry →</button>
     </form>
